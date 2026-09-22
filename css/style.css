@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #262626;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.horari {
+    max-width: 807px;
+    margin: 16px auto;
+    padding: 0 16px;
+    overflow-x: auto;
+}
+
+table {
+    width: 775px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #eeeeee;
+    padding: 0 6px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18.4px;
+    letter-spacing: 0.2px;
+}
+
+thead th {
+    height: 44px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+thead th:first-child {
+    width: 133px;
+    background: #707070;
+}
+
+tbody tr {
+    height: 92px;
+}
+
+tbody tr:nth-last-child(-n + 2) {
+    height: 82px;
+}
+
+tbody .pati {
+    height: 21px;
+}
+
+.programacio {
+    background: #623d3d;
+}
+
+.sistemes {
+    background: #505000;
+}
+
+.modul1709 {
+    background: #115267;
+}
+
+.erp,
+.eie {
+    background: #005000;
+}
+
+.web {
+    background: #00758f;
+}
+
+.bbdd {
+    background: #694269;
+}
+
+.tutoria {
+    background: #005b55;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
