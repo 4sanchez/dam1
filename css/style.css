@@ -95,3 +95,104 @@ tbody .pati {
     clip-path: inset(50%);
     white-space: nowrap;
 }
+
+/* Exercicis HTML5 */
+
+.exercici {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 16px;
+    line-height: 1.6;
+}
+
+.exercici a {
+    color: #6cc4dc;
+}
+
+.exercici a:hover {
+    color: #ffffff;
+}
+
+.exercici mark {
+    background: #f0d060;
+    color: #262626;
+}
+
+.exercici blockquote {
+    margin-left: 0;
+    padding-left: 16px;
+    border-left: 4px solid #00758f;
+    font-style: italic;
+}
+
+.exercici iframe,
+.exercici video {
+    max-width: 100%;
+}
+
+.exercici .index {
+    list-style: none;
+    padding: 0;
+}
+
+.exercici .index li {
+    margin: 6px 0;
+}
+
+.exercici .taula {
+    width: 100%;
+    table-layout: auto;
+    text-align: left;
+}
+
+.exercici .taula tbody tr {
+    height: auto;
+}
+
+.exercici .taula th,
+.exercici .taula td {
+    padding: 8px;
+}
+
+.exercici .taula thead th {
+    height: auto;
+    font-size: 16px;
+    background: #00758f;
+}
+
+.exercici form p {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.exercici input,
+.exercici textarea,
+.exercici button {
+    font: inherit;
+    padding: 6px 8px;
+}
+
+.exercici input[type="checkbox"],
+.exercici input[type="radio"] {
+    width: auto;
+}
+
+.exercici form p:has(input[type="checkbox"]) {
+    flex-direction: row;
+    align-items: center;
+}
+
+.exercici fieldset {
+    margin: 12px 0;
+    border: 1px solid #707070;
+}
+
+.exercici button {
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.tornar {
+    margin-top: 32px;
+}

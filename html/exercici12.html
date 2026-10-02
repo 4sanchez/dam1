@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Adrià Sánchez - Pàgina personal</title>
+        <meta name="description" content="Exercici 12: síntesi HTML">
+        <meta name="author" content="Adrià Sánchez">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body class="exercici">
+        <header>
+            <h1>Adrià Sánchez</h1>
+            <p>Estudiant de DAM. Aquí trobaràs el meu horari, les meves tasques i un formulari per contactar amb mi.</p>
+            <nav>
+                <ul>
+                    <li><a href="#horari">Horari</a></li>
+                    <li><a href="#video">Vídeo</a></li>
+                    <li><a href="#tasques">Tasques</a></li>
+                    <li><a href="#contacte">Contacte</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="horari">
+                <h2>La meva agenda de la setmana</h2>
+                <table class="taula">
+                    <caption>Activitats fora de classe</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Dia</th>
+                            <th scope="col">Activitat</th>
+                            <th scope="col">Hora</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dilluns</td>
+                            <td>Entrenament de futbol</td>
+                            <td>18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Dimecres</td>
+                            <td>Classe de guitarra</td>
+                            <td>17:30</td>
+                        </tr>
+                        <tr>
+                            <td>Divendres</td>
+                            <td>Projecte de programació</td>
+                            <td>16:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="video">
+                <h2>Un vídeo que recomano</h2>
+                <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        title="Vídeo de YouTube"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+            </section>
+
+            <section id="tasques">
+                <h2>Tasques pendents</h2>
+                <ol>
+                    <li>Acabar els exercicis d'HTML5.</li>
+                    <li>Estudiar per l'examen de programació.</li>
+                    <li>Practicar la nova cançó de guitarra.</li>
+                </ol>
+            </section>
+
+            <section id="contacte">
+                <h2>Contacte</h2>
+                <form action="#" method="post">
+                    <p>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" required placeholder="Escriu el teu nom">
+                    </p>
+                    <p>
+                        <label for="correu">Correu electrònic</label>
+                        <input type="email" id="correu" name="correu" required placeholder="Escriu el teu correu electrònic">
+                    </p>
+                    <p>
+                        <label for="missatge">Missatge</label>
+                        <textarea id="missatge" name="missatge" rows="5" required placeholder="Escriu el teu missatge"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Adrià Sánchez</p>
+        </footer>
+        <p class="tornar"><a href="../index.html">Tornar a l'índex</a></p>
+    </body>
+</html>

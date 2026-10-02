@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registre</title>
+        <meta name="description" content="Exercici 10: formulari de registre">
+        <meta name="author" content="Adrià Sánchez">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body class="exercici">
+        <h1>Crea el teu compte</h1>
+
+        <form action="#" method="post">
+            <p>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="El teu nom">
+            </p>
+            <p>
+                <label for="correu">Correu electrònic</label>
+                <input type="email" id="correu" name="correu" placeholder="nom@exemple.cat">
+            </p>
+            <p>
+                <label for="contrasenya">Contrasenya</label>
+                <input type="password" id="contrasenya" name="contrasenya">
+            </p>
+            <p>
+                <label for="naixement">Data de naixement</label>
+                <input type="date" id="naixement" name="naixement">
+            </p>
+            <fieldset>
+                <legend>Com ens has conegut?</legend>
+                <input type="radio" id="amics" name="origen" value="amics">
+                <label for="amics">Amics</label>
+                <input type="radio" id="xarxes" name="origen" value="xarxes">
+                <label for="xarxes">Xarxes socials</label>
+                <input type="radio" id="altres" name="origen" value="altres">
+                <label for="altres">Altres</label>
+            </fieldset>
+            <p>
+                <input type="checkbox" id="butlleti" name="butlleti">
+                <label for="butlleti">Vull rebre el butlletí de novetats</label>
+            </p>
+            <p>
+                <input type="checkbox" id="termes" name="termes">
+                <label for="termes">Accepto els termes i condicions</label>
+            </p>
+            <p>
+                <button type="submit">Registrar-me</button>
+            </p>
+        </form>
+        <p class="tornar"><a href="../index.html">Tornar a l'índex</a></p>
+    </body>
+</html>
